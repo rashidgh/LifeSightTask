@@ -1,10 +1,13 @@
 import React from 'react';
 import "./App.css"
+import Dashboard from './dashborad/Dashboard';
 
 const App = () => {
   return (
-    <div className='App'>App</div>
-  )
+    <div className="App">
+      <Dashboard />
+    </div>
+  );
 }
 
 export default App; 
