@@ -8,7 +8,6 @@ const ROW_HEIGHT = 50;
 const Table = () => {
   const [openGroups, setOpenGroups] = useState({});
 
-  // Group data by region
   const grouped = useMemo(() => {
     return data.reduce((acc, item) => {
       (acc[item.region] = acc[item.region] || []).push(item);
@@ -23,7 +22,6 @@ const Table = () => {
     }));
   };
 
-  // Prepare rows for virtualizer
   const rows = useMemo(() => {
     const list = [];
 
@@ -38,7 +36,6 @@ const Table = () => {
     return list;
   }, [grouped, openGroups]);
 
-  // Virtualizer setup
   const parentRef = useRef(null);
 
   const rowVirtualizer = useVirtualizer({
@@ -63,7 +60,7 @@ const Table = () => {
       <div
         ref={parentRef}
         style={{
-          height: "500px",
+          height: "600px",
           overflow: "auto",
           position: "relative",
         }}
