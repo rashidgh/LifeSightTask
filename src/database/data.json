@@ -13815,16 +13815,6 @@
     "clicks": 27630
   },
   {
-    "id": 1536,
-    "channel": "Reddit",
-    "region": "South America",
-    "spend": 2660.09,
-    "impres
-sions": 395381,
-    "conversions": 388,
-    "clicks": 34412
-  },
-  {
     "id": 1537,
     "channel": "LinkedIn",
     "region": "Europe",
@@ -27588,8 +27578,8 @@ sions": 395381,
   {
     "id": 3066,
     "channel": "Instagram",
-  
-  "region": "Asia",
+
+    "region": "Asia",
     "spend": 2652.51,
     "impressions": 520932,
     "conversions": 382,
@@ -41365,16 +41355,7 @@ sions": 395381,
     "conversions": 745,
     "clicks": 30284
   },
-  {
-    "id": 4597,
-    "channel": "Pinterest",
-    "region": "South America",
-    "spend": 9129.49,
-    "impressions": 972906,
-    "conversions": 13
-67,
-    "clicks": 40064
-  },
+
   {
     "id": 4598,
     "channel": "Snapchat",
@@ -68915,16 +68896,7 @@ sions": 395381,
     "conversions": 920,
     "clicks": 43498
   },
-  {
-    "i
-d": 7658,
-    "channel": "Facebook",
-    "region": "North America",
-    "spend": 7953.07,
-    "impressions": 608072,
-    "conversions": 1890,
-    "clicks": 42390
-  },
+
   {
     "id": 7659,
     "channel": "Pinterest",
@@ -82674,8 +82646,8 @@ d": 7658,
     "region": "North America",
     "spend": 881.42,
     "impressions": 117512,
-  
-  "conversions": 1996,
+
+    "conversions": 1996,
     "clicks": 9348
   },
   {
