@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import  { useMemo, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import data from "../database/data.json";
 import "./table.css";
